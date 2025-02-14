@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "Becodemy",
-    "slug": "Becodemy-App",
+    "name": "Luxoni",
+    "slug": "luxoni",
     "version": "3.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "becodemy",
+    "scheme": "luxoni",
     "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -14,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.becodemy.youtubetutorial"
+      "bundleIdentifier": "com.luxoni.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.becodemy.youtubetutorial",
+      "package": "com.luxoni.app",
       "googleServiceFiles": "./android/app/google-services.json"
     },
     "web": {
@@ -38,7 +39,8 @@
         {
           "iosUrlScheme": "com.googleusercontent.apps.500604689956-gv4jqon1uv37m2ieggd1ijr1jkrbblmt"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
