@@ -18,6 +18,8 @@ const APP_SHARED_SECRET = "4a30a73d10874dbfb41e37cf8cc20b48";
 //Middleware to parse JSON request bodies
 app.use(express.json({ limit: "100mb" }));
 
+app.get('/', (req, res) => res.send('Heyah Server is running successfully!!!'))
+
 // user login
 app.post("/login", async (req, res) => {
   try {
