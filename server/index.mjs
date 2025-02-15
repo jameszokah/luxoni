@@ -1,9 +1,9 @@
 import express from "express";
 import dotenv from "dotenv";
-import prisma from "./utils/prisma.js";
+import prisma from "./utils/prisma.mjs";
 import jwt from "jsonwebtoken";
-import { sendToken } from "./utils/sendToken.js";
-import { isAuthenticated } from "./middleware/auth.js";
+import { sendToken } from "./utils/sendToken.mjs";
+import { isAuthenticated } from "./middleware/auth.mjs";
 import axios from "axios";
 
 
